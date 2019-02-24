@@ -1,0 +1,111 @@
+
+body {
+    background-color: #eee;
+    background-image: url(../images/starynight.jpg)
+    }
+    
+    nav.standard {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    -webkit-writing-mode: vertical-lr;
+    -moz-writing-mode: vertical-lr;
+    -ms-writing-mode: vertical-lr;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background-color: #FFF;
+    }
+
+    /*nav.standard:hover{
+        width: 300px;
+    }*/
+    
+
+
+h1{
+
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.crystals{
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.crystal{
+	border:1px solid white;
+	height:200px;
+	width: 200px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s, transform 2s;
+}
+
+.crystal:hover{
+	box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+	transform: translate(5px,80px);
+	cursor: pointer;
+	transition: box-shadow 1s, transform 2s;
+
+
+}
+
+img{
+	width:50px;
+}
+
+/*#previous{
+    float: right;
+    border:1px solid green;
+	height:200px;
+	width: 200px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s, transform 2s;
+}
+
+#result{
+    float: center;
+    border:1px solid green;
+	height:200px;
+	width: 200px;
+	border-radius: 4px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+	transition: box-shadow 1s, transform 2s;
+}*/
+
+#container {
+    display: table;
+    width: 93%;
+    float: right;
+    margin-top: 70px;
+    }
+
+  #row  {
+    display: table-row;
+    border:1px solid green;
+	height:200px;
+	width: 200px;
+	border-radius: 4px;
+    
+    }
+
+  #result, #previous, #win, #lost {
+    display: table-cell;
+    color: white;
+    font-size: 30px;
+    }
+
+h2{
+    color:white;
+    margin-right: 50px;
+}
+
+
+
+   

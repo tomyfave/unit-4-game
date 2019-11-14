@@ -8,6 +8,5 @@ You will be given a random number at the start of the game. There are four cryst
 ## Built With
 HTML5
 CSS3
-Twitter-Bootstrap - Framework
 JavaScript
-jQuery - JavaScript Library
+jQuery 
